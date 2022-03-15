@@ -1,12 +1,12 @@
-### Create State machine with a simple Lambda fucntion.
+# Create State machine with a simple Lambda fucntion.
 
-# Create Lambda function with below code:
-## handler.py
+## Create Lambda function with below code:
+### handler.py
 def hello(event, context):
     print("2nd change")
     return "hello"
 
-## serverless.yml file
+### serverless.yml file
 service: hello-world-python-2
 
 frameworkVersion: '2'

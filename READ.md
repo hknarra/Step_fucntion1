@@ -2,11 +2,13 @@
 
 ## Create Lambda function with below code:
 ### handler.py
+```
 def hello(event, context):
     print("2nd change")
     return "hello"
-
+```
 ### serverless.yml file
+```
 service: hello-world-python-2
 
 frameworkVersion: '2'
@@ -22,3 +24,4 @@ provider:
 functions:
   hello:
     handler: handler.hello
+```

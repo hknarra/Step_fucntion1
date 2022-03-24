@@ -12,7 +12,7 @@
       "OutputPath": "$.Payload",
       "Parameters": {
         "Payload.$": "$",
-        "FunctionName": "arn:aws:lambda:us-east-1:950478442618:function:hello-world-python-dev-hello:$LATEST"
+        "FunctionName": "arn:aws:lambda:us-east-1:<aws-acc-id>:function:hello-world-python-dev-hello:$LATEST"
       },
       "Retry": [
         {
